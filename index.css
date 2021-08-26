@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    padding: 2px;
+    margin: 3px;
+    width: 375px;
+    height: 812px;
+    background-color: teal;
+}
+
+.heading {
+    margin-top: 4px;
+    margin-left: 9px;
+    font-size: 30px;
+    color: rgb(137, 231, 133);
+}
+
+#fname {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+
+#tfname {
+    position: absolute;
+    top: 80px;
+    left: 45px;
+}
+
+#lname {
+    position: absolute;
+    top: 110px;
+    left: 160px;
+}
+
+#tlname {
+    position: absolute;
+    top: 110px;
+    left: 45px;
+}
+
+#roll {
+    position: absolute;
+    top: 140px;
+    left: 160px;
+}
+
+#troll {
+    position: absolute;
+    top: 140px;
+    left: 45px;
+}
+
+#gender {
+    position: absolute;
+    top: 170px;
+    left: 160px;
+}
+
+#tgender {
+    position: absolute;
+    top: 170px;
+    left: 45px;
+}
+
+#tsession {
+    position: absolute;
+    top: 200px;
+    left: 45px;
+}
+
+#session {
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+
+#tbranch {
+    position: absolute;
+    top: 230px;
+    left: 45px;
+}
+
+#branch {
+    position: absolute;
+    top: 230px;
+    left: 160px;
+}
+
+#tresidence {
+    position: absolute;
+    top: 260px;
+    left: 45px
+}
+
+#residence {
+    position: absolute;
+    top: 260px;
+    left: 160px;
+}
+
+#tdomocile {
+    position: absolute;
+    top: 290px;
+    left: 45px
+}
+
+#domocile {
+    position: absolute;
+    top: 290px;
+    left: 160px;
+}
+
+#tcategory {
+    position: absolute;
+    top: 320px;
+    left: 45px;
+}
+
+#category {
+    position: absolute;
+    top: 320px;
+    left: 160px;
+}
+
+#treligion {
+    position: absolute;
+    top: 350px;
+    left: 45px
+}
+
+#religion {
+    position: absolute;
+    top: 350px;
+    left: 160px;
+}
+
+#tmassage {
+    position: absolute;
+    top: 380px;
+    left: 45px
+}
+
+#massage {
+    position: absolute;
+    top: 380px;
+    left: 160px;
+}
+
+#ttel {
+    position: absolute;
+    top: 410px;
+    left: 45px
+}
+
+#tel {
+    position: absolute;
+    top: 410px;
+    left: 160px;
+}
+
+#reset {
+    position: absolute;
+    top: 440px;
+    left: 45px;
+}
+
+#submit {
+    position: absolute;
+    top: 440px;
+    left: 160px;
+}
+
+#fname,
+#lname,
+#roll,
+#gender,
+#session,
+#branch,
+#residence,
+#domocile,
+#category,
+#religion,
+#massage,
+#submit,
+#tel {
+    border-radius: 4px;
+    background-color: white;
+    border-style: none;
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+#reset {
+    border-radius: 4px;
+    background-color: red;
+    border-style: none;
+    width: 80px;
+    height: 20px;
+    font-weight: 600;
+}
+
+#submit {
+    border-radius: 4px;
+    background-color: green;
+    border-style: none;
+    width: 175px;
+    height: 20px;
+    font-weight: 600;
+}
+
+.input {
+    position: relative;
+    top: 70px;
+    left: -55px;
+    padding: 0%;
+    width: 340px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#image {
+    position: absolute;
+    width: 345px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#submit:hover {
+    background-color: darkgreen;
+    border: 3px solid black;
+}
+
+#reset:hover {
+    background-color: darkred;
+    border: 3px solid black;
+}
+
+#image2 {
+    position: absolute;
+    top: 650px;
+    left: 17px;
+    width: 345px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+::placeholder {
+    color: grey;
+}
