@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studnet Info</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="heading">
+            <h4>WELCOME TO RBS-SIET</h4>
+            <img src="rbs4.jpg" id="image" alt="Image of RBSSIET">
+        </div>
+        <div class="input">
+            <form action="index.php" method="POST">
+                <label for="fname" id="tfname">First Name:</label>
+                <input type="text" id="fname" placeholder="Name as in 10th board" name="fname" class="ibox" required autofocus><br>
+                <label for="lname" id="tlname">Last Name:</label>
+                <input type="text" name="lname" class="ibox" id="lname" placeholder="Name as in 10th board" autofocus required><br>
+                <label for="roll" id="troll">Roll No:</label>
+                <input type="number" placeholder="University roll no..." id="roll" class="ibox" required name="roll" max="16"><br>
+                <label for="gender" id="tgender">Gender:</label>
+                <select name="gender" class="ibox" id="gender">
+            <option value="" >select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            
+        </select><br>
+                <label for="session" id="tsession">Session:</label>
+                <input type="date" name="session" id="session" class="ibox" required><br>
+                <label for="branch" id="tbranch" class="branch">Branch:</label>
+                <select name="branch" id="branch" class="ibox branch">
+                    <option value="">select</option>
+            <option value="CSE">CSE</option>
+            <option value="MECHANICAL">MECHANICAL</option>
+            <option value="ELECTRICAL">ELECTRICAL</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="ELECTRONICS">ELECTRONICS</option>
+        </select><br>
+                <label for="residence" id="tresidence">Residence:</label>
+                <select name="residence" id="residence" class="ibox">
+                    <option value="">select</option>
+            <option value="haryana">Haryana</option>
+            <option value="outside">Outsiede Haryana</option>
+        </select><br>
+                <label for="domocile" id="tdomocile">Domocile:</label>
+                <select name="domocile" id="domocile" class="ibox">
+                    <option value="">select</option>
+            <option value="Y">YES</option>
+            <option value="N">NO</option>
+        </select><br>
+                <label for="category" id="tcategory">Category;</label>
+                <select name="category" id="category" class="ibox">
+                    <option value="">select</option>
+            <option value="UR">UR-GENRAL</option>
+            <option value="OBC">OBC-A/B</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+        </select><br>
+
+                <label for="relgion" id="treligion">Religion:</label>
+                <select name="religion" id="religion" class="ibox">
+                    <option value="">select</option>
+            <option value="hindu">Hindu</option>
+            <option value="muslim">Muslim </option>
+            <option value="sikh">Sikh</option>
+            <option value="cristchan">Cristian</option>
+            <option value="baudh">Baudh</option>
+            <option value="jain">Jain</option>
+        </select><br>
+                <label for="tel" id="ttel">Phone No:</label>
+                <input type="number" name="tel" placeholder="Active contact number" id="tel" max="12">
+                <label for="massage" id="tmassage">Massage:</label>
+                <input type="text" id="massage" name="massaage" placeholder="type here..." class="ibox"><br>
+                <input type="reset" id="reset">
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        <img src="rbs1.jpg" alt="" id="image2">
+    </div>
+
+</body>
+
+</html>
